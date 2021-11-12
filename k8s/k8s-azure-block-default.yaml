@@ -1,7 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
-kind: K8sAzureBlockDefault
+kind: k8sazureblocktest
 metadata:
-  name: block-default-namespace
+  name: block-test-namespace
 spec:
   match:
     kinds:
